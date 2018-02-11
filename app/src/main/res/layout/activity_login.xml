@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.FitWindowsLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical|center_horizontal|center"
+    android:background="@drawable/book_bckgrd"
+    android:gravity="center_vertical|fill_vertical|center_horizontal|center"
+    android:orientation="vertical"
+    tools:context="com.tekaware.christ.myictu.Login">
+
+    <ImageView
+
+        android:id="@+id/icon2"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="146dp"
+
+        android:layout_marginTop="-5dp"
+
+        android:layout_weight="1"
+        android:contentDescription="@string/ictu_logo_desc"
+        android:src="@drawable/ictu_logo_transparent" />
+
+    <TextView
+        android:id="@+id/subTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="-10dp"
+        android:layout_marginTop="-5dp"
+        android:layout_weight="1"
+        android:background="#b45539"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="@string/ICTU_Label"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/subTitle3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="-25dp"
+        android:layout_weight="1"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="@string/ICTU_Slogan"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/emailLogin"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="30dp"
+        android:layout_weight="2"
+        android:background="@drawable/log_input_outline"
+        android:ems="10"
+        android:hint="@string/emailLabel"
+        android:inputType="textEmailAddress"
+        tools:targetApi="lollipop" />
+
+    <EditText
+        android:id="@+id/passLogin"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_weight="2"
+        android:background="@drawable/log_input_outline"
+        android:ems="10"
+        android:hint="@string/passwordLabel"
+        android:inputType="textPassword|textWebPassword"
+        tools:targetApi="lollipop" />
+
+    <Button
+        android:id="@+id/loginBtn"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="15dp"
+        android:layout_weight="1.5"
+        android:background="@drawable/log_input_outline"
+        android:text="@string/btnLoginLabel"
+        android:textColor="@color/colorPrimary"
+        android:textColorLink="@color/colorAccent"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/createAccountText"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center_vertical|center_horizontal|center"
+        android:text="@string/signUpText"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+</android.support.v7.widget.FitWindowsLinearLayout>

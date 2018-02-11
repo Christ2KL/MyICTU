@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/userlabel" android:checkableBehavior="single">
+        <menu>
+
+            <item
+                android:id="@+id/nav_Home"
+                android:icon="@drawable/ic_menu_home"
+                android:title="@string/noticeBoardTitle" />
+            <item
+                android:id="@+id/nav_support"
+                android:icon="@drawable/ic_help_outline_white_24dp"
+                android:title="@string/supportlabel" />
+
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_menu_logout"
+                android:title="@string/logoutLabel" />
+        </menu>
+    </item>
+
+    <item android:checkableBehavior="single" android:title="@string/app">
+        <menu>
+
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_info_outline_white_24dp"
+                android:title="@string/aboutLabel" />
+        </menu>
+    </item>
+
+
+
+</menu>

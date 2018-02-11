@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "488032677566",
+    "firebase_url": "https://myictu-15f87.firebaseio.com",
+    "project_id": "myictu-15f87",
+    "storage_bucket": "myictu-15f87.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:488032677566:android:9fe24fa0467e3c1e",
+        "android_client_info": {
+          "package_name": "com.tekaware.christ.myictu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "488032677566-q0lq276ud9b7bpov0s3dqae4aq4bas93.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tekaware.christ.myictu",
+            "certificate_hash": "5ccc97c31ff608ad8a1ee68a0dc217edb79df6d6"
+          }
+        },
+        {
+          "client_id": "488032677566-gavgco0ao7p8ioo3d9ul5rthm05e6a47.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0qC7p2Wt56bw30tNxhXxfp5HtaThCbRM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "488032677566-gavgco0ao7p8ioo3d9ul5rthm05e6a47.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

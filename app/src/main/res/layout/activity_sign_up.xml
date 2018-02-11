@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.FitWindowsLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical|center_horizontal|center"
+    android:background="@drawable/book_bckgrd"
+    android:gravity="center_vertical|fill_vertical|center_horizontal|center"
+    android:orientation="vertical"
+    tools:context="com.tekaware.christ.myictu.SingUp">
+
+    <ImageView
+
+        android:id="@+id/icon2"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="146dp"
+
+        android:layout_marginTop="-5dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/ictu_logo_desc"
+        android:src="@drawable/ictu_logo_transparent" />
+
+    <TextView
+        android:id="@+id/subTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="-30dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginStart="2dp"
+        android:layout_weight="1"
+        android:background="#b45539"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="@string/ICTU_Label"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/subTitle4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="-15dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_weight="1"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="@string/ICTU_Slogan"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/fullName"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="15dp"
+        android:layout_weight="2.3"
+        android:background="@drawable/log_input_outline"
+        android:ems="10"
+        android:hint="@string/fullNameHint"
+        android:inputType="textPersonName"
+        tools:targetApi="lollipop" />
+
+    <EditText
+        android:id="@+id/emailLogin"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_weight="2.3"
+        android:background="@drawable/log_input_outline"
+        android:ems="10"
+        android:hint="@string/emailLabel"
+        android:inputType="textEmailAddress"
+        tools:targetApi="lollipop" />
+
+    <EditText
+        android:id="@+id/passLogin"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="17dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_weight="2.3"
+        android:background="@drawable/log_input_outline"
+        android:ems="10"
+        android:hint="@string/passwordLabel"
+        android:inputType="textPassword|textWebPassword"
+        tools:targetApi="lollipop" />
+
+    <RadioGroup
+        android:id="@+id/statusRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="17dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_weight="0.5"
+        android:background="@android:drawable/button_onoff_indicator_off"
+        android:gravity="center_vertical|center_horizontal|center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/statusStudent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/student"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/darker_gray" />
+
+        <RadioButton
+            android:id="@+id/statusLecturer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/lecturer"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/darker_gray" />
+
+        <RadioButton
+            android:id="@+id/statusAdmin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/admin"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/darker_gray" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/signUpBtn"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginBottom="-1dp"
+        android:layout_weight="1.8"
+        android:background="@drawable/log_input_outline"
+        android:text="@string/sign_up_btn_label"
+        android:textColor="@color/colorPrimary"
+        android:textColorLink="@color/colorAccent"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/signInText"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="-3dp"
+        android:layout_marginTop="-1dp"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center_vertical|center_horizontal|center"
+        android:text="@string/sign_in_text"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+</android.support.v7.widget.FitWindowsLinearLayout>

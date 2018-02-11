@@ -1,0 +1,100 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="60dp"
+    tools:context="com.tekaware.christ.myictu.LoginOut">
+
+    <android.support.v7.widget.FitWindowsLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal|center"
+            android:text="@string/loginoutTitle"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintHorizontal_bias="0.489"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-30dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal|center"
+            android:text="@string/loginoutSubtitle"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+        <EditText
+            android:id="@+id/userReview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/input_outline"
+            android:ems="10"
+            android:hint="@string/reviewHint"
+            android:inputType="text"
+            android:textColor="@android:color/black"
+            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+        <Button
+            android:id="@+id/sendReviewBtn"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="50dp"
+            android:layout_weight="0.6"
+            android:background="@android:drawable/editbox_background_normal"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="@string/sendBtnLabel"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorLink="@color/colorAccent"
+            android:textStyle="bold"
+            app:layout_constraintHorizontal_bias="0.785"
+            app:layout_constraintTop_toBottomOf="@+id/userReview"
+            tools:ignore="UnusedAttribute" />
+
+        <Button
+            android:id="@+id/logOutBtn"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.6"
+            android:background="@android:drawable/editbox_background_normal"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="@string/logoutLabel"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorLink="@color/colorAccent"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintTop_toBottomOf="@+id/sendReviewBtn"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="UnusedAttribute" />
+    </android.support.v7.widget.FitWindowsLinearLayout>
+</FrameLayout>

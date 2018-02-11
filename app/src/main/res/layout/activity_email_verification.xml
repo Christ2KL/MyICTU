@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tekaware.christ.myictu.EmailVerificationActivity">
+
+    <LinearLayout
+        android:id="@+id/verificationLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/verify_bck"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/wlcTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:drawable/button_onoff_indicator_off"
+            android:gravity="center_vertical|center_horizontal|center"
+            android:paddingTop="10dp"
+            android:text="@string/welcome_to_myictu"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/wlcSubTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:drawable/button_onoff_indicator_off"
+            android:gravity="center_vertical|center_horizontal|center"
+            android:text="@string/enjoy_life_at_ict_u_from_your_pocket"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/verifyText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp"
+            android:layout_weight="1"
+            android:background="@android:drawable/button_onoff_indicator_off"
+            android:gravity="center_vertical|center_horizontal|center"
+            android:text="@string/a_verification_link_has_been_sent_to_your_mail_please_check_your_mail_and_click_on_it_to_be_able_to_use_this_app"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/verifyMailBtn"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="50dp"
+            android:layout_weight="1.8"
+            android:background="@android:drawable/editbox_background"
+            android:text="@string/resend_verification_link"
+            android:textColor="@color/colorPrimary"
+            android:textColorLink="@color/colorAccent"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/refreshBtn"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.8"
+            android:background="@android:drawable/editbox_background"
+            android:text="@string/refresh"
+            android:textColor="@color/colorPrimary"
+            android:textColorLink="@color/colorAccent"
+            android:textStyle="bold" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

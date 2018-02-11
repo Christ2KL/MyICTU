@@ -1,0 +1,7 @@
+<root>
+    <item name='android.app.ActionBar void setDisplayShowCustomEnabled(boolean)'>
+        <annotation name='org.jetbrains.annotations.Contract'>
+            <val val="&quot;true -&gt; fail&quot;" />
+        </annotation>
+    </item>
+</root>

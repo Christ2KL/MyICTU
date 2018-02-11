@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">My ICTU</string>
+    <string name="title_activity_home">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="submitBtnText">Envoyer</string>
+    <string name="errorMsg">Error!!! Check Your Connection …</string>
+
+    <string name="ICTU_Label">The ICT University</string>
+    <string name="ICTU_Slogan">Research Matters</string>
+
+
+    <string name="powered_by_label">Powered By</string>
+    <string name="tekaware_logo">TEKAWARE Logo</string>
+
+    <string name="noticeBoardTitle">Notice Board</string>
+    <string name="loginlabel">LogIn</string>
+    <string name="emailLabel">ICTU Email</string>
+    <string name="passwordLabel">Password</string>
+    <string name="btnConnectLabel">Connect</string>
+
+    <string name="supportlabel">Support</string>
+    <string name="logoutLabel">LogOut</string>
+    <string name="homeLabel">Home</string>
+    <string name="userlabel">User</string>
+    <string name="app">App</string>
+    <string name="aboutLabel">About</string>
+    <string name="add_post">Add Post</string>
+    <string name="post_feature_image">post feature image</string>
+    <string name="notice_title">Notice Title</string>
+    <string name="notice_content">Notice Content</string>
+    <string name="submit_notice">Submit Notice</string>
+    <string name="postSuccess">Notice posted …</string>
+    <string name="notice_title_goes_here">Notice title goes here</string>
+    <string name="notice_content_goes_here">Notice content goes here</string>
+    <string name="sign_up_success"> Successfully Signed Up, Signing In …  </string>
+    <string name="btnLoginLabel">Sign In</string>
+    <string name="sign_up_btn_label">Sign Up</string>
+    <string name="signUpText">Don\'t have an account ? Sign Up</string>
+    <string name="sign_in_text">Have an account ? Sign In</string>
+    <string name="fullNameHint">Full Name</string>
+    <string name="admin">Admin</string>
+    <string name="lecturer">Lecturer</string>
+    <string name="student">Student</string>
+    <string name="ictu_logo_desc">ICTU Logo</string>
+    <string name="status_error">failed to read status</string>
+    <string name="welcome_to_myictu">Welcome To MyICTU</string>
+    <string name="enjoy_life_at_ict_u_from_your_pocket">Enjoy life at ICT-U from your pocket</string>
+    <string name="a_verification_link_has_been_sent_to_your_mail_please_check_your_mail_and_click_on_it_to_be_able_to_use_this_app">A verification link has been sent to your mail. Please check your mail and click on it to be able to use this App.</string>
+    <string name="resend_verification_link">Resend Verification Link</string>
+    <string name="refresh">Refresh</string>
+    <string name="loginoutSubtitle">Hopping you could give us appreciations before</string>
+    <string name="loginoutTitle">You are trying to log out…</string>
+    <string name="sendBtnLabel">Send</string>
+    <string name="reviewHint">type review here</string>
+    <string name="thanks_msg">Thanks !</string>
+    <string name="by">By</string>
+    <string name="christian_kouesso">Christian KOUESSO</string>
+    <string name="official_ict_u_app_for_internal_use">Official ICT-U app for internal use</string>
+
+</resources>
